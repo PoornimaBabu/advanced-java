@@ -14,7 +14,8 @@ public class Anonymous {
         a.display();
         A b = new A(){
             public void display() {
-                System.out.println("Hello from Anonymous subclass");
+                String name = "Poornima";
+                System.out.println("Hello from " + name);
             }
         };
         b.display();

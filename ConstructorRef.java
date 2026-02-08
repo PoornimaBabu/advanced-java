@@ -35,7 +35,7 @@ class Student {
 }
 
 public class ConstructorRef {
-    public static void main() {
+    public static void main(String a[]) {
         List<String> names = Arrays.asList("Alice", "Bob", "Charlie");
         List<Student> students = names.stream()
                                     //   .map(name -> new Student(name))
